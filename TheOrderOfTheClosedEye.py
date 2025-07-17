@@ -17,7 +17,6 @@ Version 3.1
 The world around you is changing
 
 Version 3.2
-That's a stupid and difficult idea why are you so stupid and difficutlt
 Removed old map text and other commented out lines
 '''
 
