@@ -5,9 +5,9 @@ In 2015 I made a video game at the Scripture Union summer camp Transformers. It 
 The only change that I have made to the code is removing one `print` function that I was using for debugging.
 
 ## How to run
-Make sure Pygame is installed.
-Either add Easygame to PYTHONPATH or put it in the same directory as TheOrderOfTheClosedEye.py
-Run TheOrderOfTheClosedEye.py with python.
+* Make sure Pygame is installed.
+* Either add Easygame to PYTHONPATH or put it in the same directory as TheOrderOfTheClosedEye.py
+* Run TheOrderOfTheClosedEye.py with python.
 
 The floor texture `Sprites/FloorTextureThing.bmp` is based on the Minecraft cobblestone texture (pre 1.14), as are its derivatives.
 
