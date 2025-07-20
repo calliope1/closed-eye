@@ -281,6 +281,7 @@ class Vim(GamePiece):
 	def animate(self,protag):
 		if self.exist:
 			if self.book:
+                if (self.position[0] - protag.position[0]) ** 2 + (self.position[1] - protag.position[1]) ** 2 < 6400:
 				plotimage(self.position, "Sprites/Book.png", temp=1)
 			else:
 				if (self.position[0] - protag.position[0]) ** 2 + (self.position[1] - protag.position[1]) ** 2 > 8100:
