@@ -1814,7 +1814,7 @@ class _ScreenModel:
         """ if batchingO is true, request that subsequent screen updates are not posted to
         the screen immediately, but instead wait for the next tick"""
         self.batching = batching
-    def superblit(self, destpos, img, srcrect=None,temp=0,topleft=0,angle=0,zoom=1,onlysize=0,onlygetsurface=0, alpha=None):
+    def superblit(self, destpos, img, srcrect=None,temp=0,topleft=1,angle=0,zoom=1,onlysize=0,onlygetsurface=0, alpha=None):
         """ place img on to the screen at destpos. destpos specifies the
         middle of the image unless topleft is set to true.
         If srcrect is specified, copy only that part of img otherwise take
@@ -2462,6 +2462,9 @@ class _ScreenModel:
     def removeallsprites(self):
         """ remove all sprites """
         self.sprites = []
+    def get_screen(self):
+        """ returns screen (by Calliope Ryan-Smith) """
+        return self.screen
 
 _degradfac = 180.0 / math.pi
 class ContradictoryPosInit(Exception): pass
